@@ -1,0 +1,22 @@
+# Environnement virtuel (recréé avec requirements.txt)
+.venv/
+
+# Données intermédiaires et modèles : recalculés par le notebook
+data/processed/
+models/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Streamlit (secrets éventuels)
+.streamlit/secrets.toml
+
+# Éditeur et Windows
+.vscode/
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires de Word quand la note est ouverte
+~$*.docx
