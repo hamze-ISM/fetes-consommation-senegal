@@ -23,7 +23,7 @@ Dix ans de ventes journalières (2016-2025) d'un réseau de 10 points de vente, 
 
 ![Carte de chaleur des uplifts](reports/figures/p3_carte_chaleur_uplift.png)
 
-**Prévoir.** La Tabaski recule de 10,7 jours par an en moyenne, et son pic de ventes passe de septembre (2016) à juin (2023-2025). Une variable « mois » ne suffit donc pas : il faut les distances en jours aux fêtes (`av_` et `av_`), calculées avec `merge_asof`.
+**Prévoir.** La Tabaski recule de 10,7 jours par an en moyenne, et son pic de ventes passe de septembre (2016) à juin (2023-2025). Une variable « mois » ne suffit donc pas : il faut les distances en jours aux fêtes (`av_` et `ap_`), calculées avec `merge_asof`.
 
 ![Le pic de ventes de moutons recule dans le calendrier](reports/figures/p2_ventes_mouton_mois_annee.png)
 
